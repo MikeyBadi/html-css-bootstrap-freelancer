@@ -1,0 +1,59 @@
+.debug-h{
+  background-color: rgba(127, 255, 212, 0.25);
+  border: 1px solid black;
+}
+.debug-m{
+  background-color: rgba(255, 127, 127, 0.25);
+  border: 1px solid black;
+}
+.debug-f{
+  background-color: rgba(127, 140, 255, 0.25);
+  border: 1px solid black;
+}
+
+/* utilities */
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+/* header */
+.mb-header{
+  height: 90px;
+}
+
+.mb-jumbo{
+  height: 500px;
+}
+
+.contenuto{
+  width: 430px;
+  height: 90%;
+}
+
+/* main */
+
+.mb-main{
+  height: 100%;
+}
+
+.mb-title-card{
+  height: 150px;
+}
+
+.mb-cards{
+  height: 350px;
+}
+
+/* footer */
+.mb-footer{
+  height: 100%;
+}
+
+.mb-footer-txt{
+  height: 230px;
+}
+
+.mb-copyright{
+  height: 110px;
+}
