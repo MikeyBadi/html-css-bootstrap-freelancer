@@ -12,80 +12,217 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   </head>
   <body>
       <header>
-        <div class="debug-h">
-          <!-- Navbar -->
-          <div class="container-md debug-h mb-header">
-              <div class="row d-flex justify-content-between">
-                <!-- title -->
-                <div class="col-5 col-md-4 debug-h mb-header"></div>
-                <!-- /title -->
+        <div class="mb-color fixed-top mb-pdd-10 reset-pdd-t-b">
+          <div>
 
-                <!-- Menu -->
-                <div class="col-2 d-sm-block d-md-none debug-h mb-header"></div>
-                <div class="col-3 d-none d-md-block debug-h mb-header"></div>
-                <!-- /Menu -->
+          </div>
+          <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex mb_nav">
+            <div class="container-fluid mb_nav_cont">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mb_toggler"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                  <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                  <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                </div>
               </div>
             </div>
-          </div>
+          </nav>
           <!-- /Navbar -->
-        </div>
-
-        <div class="container-fluid d-flex center mb-jumbo debug-h">
-            <div class="contenuto debug-h"></div>
         </div>
       </header>
 
+        <!-- Jumbotron -->
+        <div class="container-fluid center mb-jumbo mb-pdd-10">
+          <div class="contenuto center">
+            <img src="assets/img/avatar.svg" alt="img-profilo">
+            <div>
+              <h1 class="center">START BOOTSTRAP</h1>
+              <div class="center mb_cornice">
+                <div class="stripe_white"></div>
+                <i class="fa-solid fa-star white"></i>
+                <div class="stripe_white"></div>
+              </div>
+              <h3 class="center">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
+            </div>
+          </div>
+        </div>
+        <!-- /Jumbotron -->
+
       <main>
-        <div class="mb-title-card debug-m"></div>
-        <div class="container-md debug-m mb-main">
-
-          <!-- Cards -->
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-            <div class="col debug-m mb-cards">1</div>
-            <div class="col debug-m mb-cards">2</div>
-            <div class="col debug-m mb-cards">3</div>
-            <div class="col debug-m mb-cards">4</div>
-            <div class="col debug-m mb-cards">5</div>
-            <div class="col debug-m mb-cards">6</div>
-          </div>
-          <!-- /Cards -->
-
+        <!-- Cards -->
+        <div class="mb-pdd-10">
+            <div class="mb-title-card center">
+              <div class="center mb_cornice flex-column">
+                <h1 class="obscure">PORTFOLIO</h1>
+                <div class="mb_separator center">
+                  <div class="stripe_obscure"></div>
+                  <i class="fa-solid fa-star obscure"></i>
+                  <div class="stripe_obscure"></div>
+                </div>
+              </div>
+            </div>
+            <div class="container-md mb-main">
+    
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col center mb-cards">
+                  <img src="assets/img/cabin.png" alt="cabin">
+                    <div class="middle">
+                      <div class="text"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col center mb-cards">
+                  <img src="assets/img/cake.png" alt="cake">
+                    <div class="middle">
+                      <div class="text"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col center mb-cards">
+                  <img src="assets/img/circus.png" alt="circus">
+                    <div class="middle">
+                      <div class="text"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col center mb-cards">
+                  <img src="assets/img/game.png" alt="game">
+                    <div class="middle">
+                      <div class="text"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col center mb-cards">
+                  <img src="assets/img/safe.png" alt="safe">
+                    <div class="middle">
+                      <div class="text"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+                <div class="col center mb-cards">
+                  <img src="assets/img/submarine.png" alt="yellow-submarine">
+                    <div class="middle">
+                      <div class="text"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+              </div>
+              <!-- /Cards --> 
+            </div>
+        </div>
           <!-- About -->
-          <div class="mb-title-card debug-m"></div>
-          <div class="row row-cols-1 row-cols-sm-2">
-            <div class="col debug-m mb-cards">1</div>
-            <div class="col debug-m mb-cards">2</div>
-          </div>
+          <section class="mb_smaller about">
+            <div class="mb-pdd-5">
+              <div class="mb-title-card center">
+                <div class="center mb_cornice flex-column">
+                  <h1>ABOUT</h1>
+                  <div class="mb_separator center">
+                    <div class="stripe_white"></div>
+                    <i class="fa-solid fa-star white"></i>
+                    <div class="stripe_white"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-md mb-main">
+                <div class="row row-cols-1 row-cols-sm-2">
+                  <div class="colmb-cards">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrao. The download includes th complete source files inclouding HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                  </div>
+                  <div class="colmb-cards">
+                    <p>
+                      Whether you're a student looking to showcas your whork a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                    </p>
+                  </div>
+                </div>
+                <div class="center">
+                  <a href="#" class="mb_download">
+                      <i class="fa-solid fa-download"></i>
+                      <span>Download</span>
+                  </a>
+                </div>
+            </div>
+            </div>
+          </section>
           <!-- About -->
 
           <!-- form -->
-          <div class="mb-title-card debug-m"></div>
-          <div class="row">
-            <div class="col debug-m mb-cards">1</div>
+          <div class="mb-pdd-5 form">
+            <div class="mb-title-card">
+              <div class="center mb_cornice flex-column">
+                <h1 class="obscure">CONTACT ME</h1>
+                <div class="mb_separator center">
+                  <div class="stripe_obscure"></div>
+                  <i class="fa-solid fa-star obscure"></i>
+                  <div class="stripe_obscure"></div>
+                </div>
+              </div>
+            </div>
+            <div class="container-md mb-main">
+              <div class="row">
+                <div class="col">
+
+                  <input class="form-control mb_form_dec" type="text" placeholder="Name" aria-label="default input example">
+
+                    <input type="email" class="form-control mb_form_dec" id="exampleFormControlInput1" placeholder="Email Address">
+                  
+                    <input class="form-control mb_form_dec" type="text" placeholder="Phone number" aria-label="default input example">
+
+                    <textarea class="form-control mb_form_dec" id="exampleFormControlTextarea1" placeholder="Message" rows="6"></textarea>
+                </div>
+              </div>
+              <div class="d-grid gap-2 d-md-block mb_button">
+                <button class="btn btn-primary" type="button">Send</button>
+              </div>
+            </div>
           </div>
           <!-- /form -->
-        </div>
       </main>
 
       <footer>
-        <div class="debug-f">
+        <div class="mb-pdd-10">
           <!-- Info -->
-          <div class="container-md debug-f">
-            <div class="row row-cols-1 row-cols-sm-3">
-              <div class="col debug-f mb-footer-txt">1</div>
-              <div class="col debug-f mb-footer-txt">2</div>
-              <div class="col debug-f mb-footer-txt">3</div>
+          <div class="container-md">
+            <div class="row row-row-cols-sm-3">
+              <div class="col mb-footer-txt center">
+                <div class="mb_fo_txt">
+                  <h5>LOCATION</h5>
+                  <p>2215 John Daniel Drive Clark, MO</p>
+                  <p>54243</p>
+                </div>
+              </div>
+              <div class="col mb-footer-txt center">
+                <div class="mb_fo_txt">
+                  <h5>AROUND THE WEB</h5>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-google-plus-g"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+              <div class="col mb-footer-txt center">
+                <div class="mb_fo_txt">
+                  <h5>ABOUT FREELANCER</h5>
+                  <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+                </div>
+              </div>
+
             </div>
           </div>
           <!-- /Info -->
+      </footer>
 
           <!-- Copyrigh -->
-          <div class="mb-copyright d-flex center">copy</div>
-          <!-- /Copyrigh -->
-        </div>
-      </footer>
+          <div class="mb-copyright center">
+            <span>Copyright &copy; Your Website 2019</span>
+          </div>
+          <!-- /Copyrigh -->        
   </body>
 </html>
+
